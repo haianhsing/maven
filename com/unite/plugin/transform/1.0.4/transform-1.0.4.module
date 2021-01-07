@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.unite.plugin",
+    "module": "transform",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "2y4qqckcnvehlodxjk7yzktz2y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "transform-1.0.4.jar",
+          "url": "transform-1.0.4.jar",
+          "size": 15236,
+          "sha512": "65ef337403dd9b8a2c7cb0b119cf0de2347a06449c707ecbf2cb28fc8c5e467c976e9c964810103a131795aee6b6540855086c2a30992c9d327ed1f4a59db779",
+          "sha256": "88096fae95d9b952023589b78d629c1d04535329158bcc32593d5017da7b57c9",
+          "sha1": "236932fa11f6810341a9758e996d49fca5df8789",
+          "md5": "36c514ffa808d30a6f27522db5726e44"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.27.0-GA"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transform-1.0.4.jar",
+          "url": "transform-1.0.4.jar",
+          "size": 15236,
+          "sha512": "65ef337403dd9b8a2c7cb0b119cf0de2347a06449c707ecbf2cb28fc8c5e467c976e9c964810103a131795aee6b6540855086c2a30992c9d327ed1f4a59db779",
+          "sha256": "88096fae95d9b952023589b78d629c1d04535329158bcc32593d5017da7b57c9",
+          "sha1": "236932fa11f6810341a9758e996d49fca5df8789",
+          "md5": "36c514ffa808d30a6f27522db5726e44"
+        }
+      ]
+    }
+  ]
+}
